@@ -4,8 +4,8 @@
   "description": "A shorts library website: a 3D glass carousel, a cover grid, and a window with watch buttons that open YouTube or Instagram.",
   "main": "shorts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx serve ."
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/VENU679/CLIPMAX/issues"
   },
-  "homepage": "https://github.com/VENU679/CLIPMAX#readme"
+  "homepage": "https://github.com/VENU679/CLIPMAX#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
