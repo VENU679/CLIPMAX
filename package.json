@@ -1,0 +1,22 @@
+{
+  "name": "clipmax-site-fixed",
+  "version": "1.0.0",
+  "description": "A shorts library website: a 3D glass carousel, a cover grid, and a window with watch buttons that open YouTube or Instagram.",
+  "main": "shorts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VENU679/CLIPMAX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VENU679/CLIPMAX/issues"
+  },
+  "homepage": "https://github.com/VENU679/CLIPMAX#readme"
+}
